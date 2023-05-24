@@ -1,0 +1,38 @@
+for index, row in df.iterrow():
+	## iterate through the row and get lat nad long
+	## use the lat and long to call YELP api
+	## use the term "bars" to get the response
+	## parse the JSON response
+	## count how many bars there are in the response
+	## set up a new column "num_bar" that shows the number of bars from the API call
+
+
+	## still using the lat and long, call the weather API
+	## parse the JSON rsponse to get the weather condition on the day of the accident
+	## set up a new colum "condition" that shows the weather condition
+
+
+"preprocessing task"
+take a subset (2015)
+take antoher subset from 2015 -- take 2
+
+finally, from 2015 data, take random subset of 100
+
+
+
+
+"enrichment task"
+don't have to join
+call the api -- parse the repsonse for "numenbr of bars" and "weather condition"
+set up new columns to df
+
+
+"analysis task"
+analyze the big df: 
+see the relationships -- using groupby weather condition
+see the relationships -- num_bars vs. severity
+see the relatioships -- usign groupby weekend vs. weekday
+see the relationships between time of the day vs. severity
+
+
+
